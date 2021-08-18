@@ -21,7 +21,7 @@ public class IndexController {
         return service.cep(cep);
     }
     @GetMapping("/ola")
-    public String indexddd(@PathVariable String cep) {
+    public String indexddd() {
         return"OLAAAAA";
     }
 }
