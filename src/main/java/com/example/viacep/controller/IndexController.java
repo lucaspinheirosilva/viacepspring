@@ -20,8 +20,4 @@ public class IndexController {
     public Map<String, Object> index(@PathVariable String cep) {
         return service.cep(cep);
     }
-    @GetMapping("/ola")
-    public String indexddd() {
-        return"OLAAAAA";
-    }
 }
