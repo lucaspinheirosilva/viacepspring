@@ -1,0 +1,12 @@
+CREATE TABLE `viacep`.`cep` (
+  `cep` VARCHAR(10) NOT NULL,
+  `logradouro` VARCHAR(45) NOT NULL,
+  `complemento` VARCHAR(45) NULL,
+  `bairro` VARCHAR(45) NOT NULL,
+  `localidade` VARCHAR(45) NOT NULL,
+  `uf` VARCHAR(45) NOT NULL,
+  `ibge` VARCHAR(45) NULL,
+  `gia` VARCHAR(45) NULL,
+  `ddd` VARCHAR(45) NULL,
+  `siafi` VARCHAR(45) NULL,
+  PRIMARY KEY (`cep`));
